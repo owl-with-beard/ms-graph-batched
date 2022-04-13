@@ -6,7 +6,7 @@ Small async Python wrapper to make batched requests to the Microsoft graph API.
 from batch_wrappers import batched_request
 
 upns = ["robert.smith@contoso.com",
-        "william.doe@@contoso.com",
+        "william.doe@contoso.com",
         "mary.jones@contoso.com"]
 
 endpoints = [f'https://graph.microsoft.com/v1.0/users/{upn}' for upn in upns]
